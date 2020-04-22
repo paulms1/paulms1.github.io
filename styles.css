@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F1EDDB;
+    font-family: 'Space Mono', monospace;
+}
+
+nav {
+    height: 5vh;
+}
+
+.navBar {
+    animation-duration: 1s;
+    animation-delay: 1.2s;
+    animation-iteration-count: 1;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+a {
+    text-shadow: -0.2px -0.5px -0.5px #4d4d4d;
+    text-decoration: none;
+    color: #97B0AA;
+    line-height: 8vh;
+}
+
+a:hover {
+    text-shadow: -0.2px -0.2px 0.2px #7E9791, 0.2px 0.2px 0.2px #647D77;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.nameAndJob {
+    color: #97B0AA;
+    font-size: 2.5rem;
+    padding: 50px;
+}
+
+#logoContainer {
+    justify-content: center;
+    vertical-align: middle;
+    width: 55vw;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    height: 5vh;
+}
+
+@media only screen and (max-width: 1000px) {
+    .nameAndJob {
+        font-size: 2.2rem;
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .nameAndJob {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .nameAndJob {
+        font-size: 1.8rem;
+    }
+}
