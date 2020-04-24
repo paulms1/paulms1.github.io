@@ -13,12 +13,6 @@ nav {
     height: 5vh;
 }
 
-.navBar {
-    animation-duration: 1s;
-    animation-delay: 1.2s;
-    animation-iteration-count: 1;
-}
-
 ul {
     display: flex;
     justify-content: space-around;
@@ -80,5 +74,11 @@ footer {
 @media only screen and (max-width: 750px) {
     .nameAndJob {
         font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .nameAndJob {
+        font-size: 0.8rem;
     }
 }

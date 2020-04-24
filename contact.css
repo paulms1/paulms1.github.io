@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F1EDDB;
+    color: #647D77;
+    font-family: 'Space Mono', monospace;
+}
+
+nav {
+    height: 5vh;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    text-shadow: -0.2px -0.5px -0.5px #4d4d4d;
+    line-height: 8vh;
+    color: #97B0AA;
+}
+nav a:hover {
+    text-shadow: -0.2px -0.2px 0.2px #7E9791, 0.2px 0.2px 0.2px #647D77;
+}
+
+.email {
+    color: #F1EDDB
+}
+
+.email:hover {
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: rgba(245,245,245,0.5) 0.5px 1.5px 0.2px;
+}
+
+.businessCard {
+    width: 600px;
+    height: 350px;
+    background-color: #647D77;
+    border-radius: 5px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    color: #F1EDDB;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    padding: 4%;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+h2, h3, h4 {
+    padding: 3%;
+}
+
+.socials {
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.size {
+    width: 90px;
+    height: 90px;
+}
+
+.size img {
+    width: 100%;
+    height: auto;
+}
+
+.size:hover {
+    width: 105px;
+    height: 105px;
+}
+
+@media only screen and (max-width: 800px) {
+    .businessCard {
+        width: 475px;
+        padding: 10%;
+    }
+}
