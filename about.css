@@ -41,6 +41,7 @@ a:hover {
 
 .displayPhoto {
     width: 50%;
+    margin-top: 88px;
     padding: 5%;
     display: flex;
     align-items: center;
@@ -89,6 +90,7 @@ footer {
 
     .displayPhoto {
         margin: 0 auto;
+        padding-top: 80px;
     }
 
     .displayText {
